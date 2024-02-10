@@ -1,6 +1,5 @@
 const telNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-
 // Desafio 8
 function formatPhoneNumber(telNumber) {
     const contagem = {};
@@ -40,6 +39,3 @@ function formatPhoneNumber(telNumber) {
 const formattedNumber = formatPhoneNumber(telNumber);
 console.log(formattedNumber);
 
-module.exports = {
-    formatPhoneNumber
-}
